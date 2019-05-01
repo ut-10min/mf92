@@ -25,7 +25,7 @@ function construstTimeTable(timeTable, talksData) {
 $(function () {
   var firstDayTable = construstTimeTable(day1, data);
   var secondDayTable = construstTimeTable(day2, data);
-  var thirdDayTable = construstTimeTable(day3, data);
+  // var thirdDayTable = construstTimeTable(day3, data);
 
   var template = $('#template').html();
   Mustache.parse(template);
