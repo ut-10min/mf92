@@ -32,5 +32,6 @@ $(function () {
   var renderedFirst = Mustache.render(template, {table: firstDayTable, header: "5/18 (土)"});
   var renderedSecond = Mustache.render(template, {table: secondDayTable, header: "5/19 (日)"});
   // var renderedThird = Mustache.render(template, {table: thirdDayTable, header: "11/25(日)"});
-  $('.article-headline').html(renderedFirst + "<br />" + renderedSecond + "<br />" + renderedThird);
+  // $('.article-headline').html(renderedFirst + "<br />" + renderedSecond + "<br />" + renderedThird);
+  $('.article-headline').html(renderedFirst + "<br />" + renderedSecond);
 });
